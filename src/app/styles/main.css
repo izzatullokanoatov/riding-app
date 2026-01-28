@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@keyframes gallop {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-3px); }
+}
+
+.horse-gallop {
+  animation: gallop 0.3s ease-in-out infinite;
+}
+
+.track-lane {
+  background: linear-gradient(90deg, #4ade80 0%, #22c55e 100%);
+  border-top: 2px dashed #fff;
+  border-bottom: 2px dashed #fff;
+}
+
+.track-lane:first-child { border-top: 3px solid #dc2626; }
+.track-lane:last-child { border-bottom: 3px solid #dc2626; }
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: #f1f1f1; }
+::-webkit-scrollbar-thumb { background: #888; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #555; }
