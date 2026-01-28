@@ -1,4 +1,4 @@
-import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
+import { describe, it, expect, vi, beforeEach } from 'vitest'
 import { state, getters, mutations, actions } from '../model'
 import type { Horse, HorsesState } from '@/shared/types'
 import { HORSE_NAMES, HORSE_COLORS, TOTAL_HORSES } from '@/shared/config'
