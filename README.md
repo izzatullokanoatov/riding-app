@@ -29,22 +29,7 @@ An interactive horse racing simulation game built with Vue 3, TypeScript, Vuex, 
 
 ## Project Structure
 
-```
-src/
-├── components/
-│   ├── common/           # Reusable components (HorseIcon)
-│   ├── horse/            # Horse-related components
-│   ├── layout/           # Layout components (AppHeader)
-│   └── race/             # Race components (Track, Schedule, Results)
-├── composables/          # Vue composables for typed store access
-├── constants/            # Game constants and configuration
-├── store/
-│   └── modules/          # Vuex store modules (horses, race)
-├── types/                # TypeScript type definitions
-├── utils/                # Utility functions
-└── __tests__/            # Unit tests
-e2e/                      # End-to-end tests
-```
+Using FSD architecture
 
 ## Getting Started
 
